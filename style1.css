@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0; 
+    
+   }
+   .details{
+    width: 750px;
+    height: 100px;
+   background-color: rgb(11, 11, 44);
+   color: white;
+   text-transform: capitalize;
+   border-radius: 3px;
+   }
+   p{
+    color: wheat;
+   }
+ label{
+    color: black;
+    font-weight: bold;
+     }
+ form{
+    display: flex;
+    flex-direction: column;
+ } 
+ input,select,textarea{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+ }   
+ button{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px,20px;
+    font-size: 14px;
+    border-radius:30px;
+    height: 40px;
+    width: 100px;
+    
+ }
+ .radio{
+    gap: 100px;
+    display: flex;
+ }
+
+ 
+

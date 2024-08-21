@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+    background-color: gray;
+}
+h1{
+ font-weight: bolder;
+ text-decoration: underline;
+}
+h2{
+    background-color: lightskyblue;
+    color: blue;
+}
+button{
+    background-color: grey;
+}
+button:hover{
+    background-color: rgb(121, 121, 177);
+}
+label{
+    vertical-align: top;
+    
+}
+.box{
+    text-align: right;
+}
+.abc{
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 70px;
+    vertical-align: top;
+}
+.box1{
+    text-align: left;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 1px black;
+    text-align: left;
+}
+th{
+    font-weight: bolder;
+}

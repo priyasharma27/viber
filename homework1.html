@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>client details</title>
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <div class="details">
+      <form action="form">
+        <h2 style="text-align: center">client details</h2>
+        <p style="text-align: center">
+          enter the details of all incoming clients
+        </p>
+        <label for="client name">client name*</label>
+        <input type="text" name="client name" id="client name" />
+        <label for="company">company*</label>
+
+        <input type="text" name="company" id="company" />
+
+        <label for="title">title</label>
+        <input type="text" name="title" id="title" />
+
+        <label for="department">department*</label>
+        <select name="department" id="department">
+          <option value="">select</option>
+        </select>
+        <label for="preferred contact method">preferred contact method</label>
+        <div class="radio">
+          <label
+            ><input type="radio" name="contact method" value="email"
+          />email</label>
+          <label
+            ><input type="radio" name="contact method" value="phone"
+          />phone</label>
+        </div>
+        <label for="company address">company address*</label>
+        <input type="text" name="address" placeholder="street address" />
+        <input type="text" name="address2" placeholder="address line 2" />
+        <input type="text" name="city" placeholder="city" />
+        <input
+          type="text"
+          name="state/region/province"
+          placeholder="state/region/province"
+        />
+        <input type="text" name="postal/zipcode" placeholder="postal/zipcode" />
+        <select name="country" id="country">
+          <option>select country</option>
+        </select>
+        <label for="company website">company website*</label>
+        <input type="text" name="company website" id="company website" />
+        <label for="company logo">company logo</label>
+        <input type="text" name="company logo" placeholder="logo" />
+        <label for="working hours">working hours</label>
+        <input type="text" name="working hours" id="working hours" />
+        <label for="working days">working days</label>
+        <input type="text" name="working days" id="working days" />
+        <label for="billing cycle">billing cycle</label>
+        <input type="date" name="billing cycle" id="billing cycle" />
+        <label for="additional information">additional information</label>
+        <textarea
+          name="additional information"
+          id="additional information"
+        ></textarea>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>

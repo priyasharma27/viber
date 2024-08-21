@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        color: pink;
+      }
+      body {
+        background-color: black;
+        /* note there are two type of color system one is ->RGB(thst is RED,green and blue) EXAMPLE: color: rgb(255,0,0); as well as there is another color system that is ->hexa decimal EXAMPLE: color: #ff0000 */
+     /* background image (it is used to set image on background) */
+     background-image: url(./party-dog.webp);
+  /* back ground size helps to correct the size of background image as per need */
+     background-size: cover;
+/* flex box layout( it is a one dimentional layout method for arranging items in rows and column) */
+    /* example */
+flex-direction: column-reverse;
+/* justify content helps to alignment along the main axis */
+justify-content: end;
+flex-wrap: nowrap;
+align-items: center;
+}
+      #headingone {
+        color: yellow;
+      }
+      #headingtwo {
+        color: purple;
+      }
+      #headingthree {
+        color: brown;
+      }
+      /* text align (this will help to shift any text either left right or center ) */
+      /* example */
+      h1 {
+        text-align: right;
+      }
+      /* text decoration (its use is to undeline or overline or line-throught the text ) */
+      /* example */
+      h2 {
+        text-decoration: underline;
+      }
+      a {
+        text-decoration: none;
+        /* as we know ankor tag has always underline so by using this text decoration we can also remove underline as per need */
+      }
+      
+      p{
+        /* fomnt-weight (this is use to make text lighter bold darker as per need) */
+      /* example */
+        color: white;
+        font-weight: bolder;
+      
+      /* font-family (it is use to change the style of text) */
+      /* example */
+     font-family: Arial, Helvetica, sans-serif;
+     /* text transformation is use to convert text in the form of lowercase or uppercase or capitalize or none as per need */
+     text-transform: lowercase;
+     /* line-height is used to make space between the text */
+     line-height: 40px;
+     height: 100px;
+     width: none;
+      border: 2px,solid,black;
+      padding-top: 50px;
+      display: inline-block;
+      /* if we put hidden in visibility then text will not be visible */
+      visibility: none;
+      /* opacity (it is used to set text color darker lighter as per your need use rgba for this) */
+      /* example */
+      color: rgba(225,0,0,1)
+      
+      }
+    </style>
+  </head>
+  <body>
+    <!-- for color -->
+    <h1 style="color: red">priya sharma</h1>
+    <h2>pushpa sharma</h2>
+    <h1 id="headingone">hello</h1>
+    <h2 id="headingtwo">hi</h2>
+    <h3 id="headingthree">namaste</h3>
+    <a href="www.google.com">google</a>
+    <p>
+      <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+        adipisci amet ex impedit pariatur neque repellat omnis sint quasi numquam
+        ratione iste laboriosam in a dolores quia inventore ipsa ut.</i>
+    </p>
+
+  </body>
+</html>

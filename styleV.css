@@ -1,0 +1,268 @@
+.navbar{
+    background-color: white;
+    
+    display: flex;
+    
+}
+.nav-logo{
+    height: 90px;
+    width: 150px;
+    max-height: 60px;
+    margin-bottom: -2px;
+    margin-top: -1px;  
+}
+.logo{
+    background-image: url(./viberimg.webp);
+    background-size: cover;
+    height: 90px;
+    width: 150px;
+    max-height: 60px;
+    margin-bottom: -2px;
+    margin-top: -1px;  
+    vertical-align: middle;
+    border-style: none;
+}
+.boarder{
+    border: 2px solid transparent;
+    
+}
+/* .ming{
+    position: absolute;
+} */
+ /* .viber-video{
+    display: flex;
+} */
+/* .content{
+    padding-top: 100px;
+} */
+.boarder:hover {
+    border: 2px solid black;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: #888;
+    font-weight: 300;
+   
+}
+.nav-links li{
+    margin-left: 30px;
+
+}
+button.business{
+    border-color: #665cac;
+    color: #665cac;
+    padding: 10px,20px;
+    border-radius:30px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+button.download{
+    color: white;
+    background-color: #66b821;
+    border-radius: 30px;
+    height: 48px;
+    text-align: center;
+    min-width: 228px;
+}
+.viber-icon i{
+    font-size: 65px;
+}
+.moreinfo h1{
+    text-align: center;
+    color: #323232;
+}
+.moreinfo p{
+    text-align: center;
+    font-size: 20px;
+    color: #323232;
+}
+.voice-and-video{
+    display: flex;
+    text-align: center;
+}
+.dis{
+    padding: 40px 650px;
+}
+button.discover{
+    color: #665cac;
+    border-color: #665cac;
+    border-radius: 30px;
+    min-width: 228px;
+    height: 48px;
+    text-align: center;
+    
+}
+.football{
+    display: flex;
+    padding: 50px 200px;
+    background-color: #e6ecf0;
+}
+.a p{
+    font-size: 18px;
+    padding: 0px 70px;
+}
+.a h1{
+    padding: 0px 70px;
+} 
+.community{
+    padding: 10px 150px;  
+    }
+    button.communities{
+        color: #665cac;
+        border-color: #665cac;
+        border-radius: 30px;
+        min-width: 228px;
+        height: 48px;
+        text-align: center;
+        text-decoration: underline; 
+        font-size: 15px;  
+    }
+    
+    .communities:hover{
+        text-decoration: none;
+        background-color: #888;
+    
+    }
+
+.security {
+    display: flex;
+    padding: 200px 200px;
+}
+.sec{
+    padding: 10px 60px;
+}
+button.mbs{
+    color: #665cac;
+    border-color: #665cac;
+    border-radius: 30px;
+    min-width: 228px;
+    height: 48px;
+    text-align: center;  
+    font-size: 15px;   
+    
+}
+button.mbs:hover{
+    background-color: rgb(184, 178, 178);
+    
+}
+.icon i{
+    font-size: 70px;
+    padding: 20px 700px;
+    text-align: center;
+
+}
+.icon p{
+    text-align: center;
+    font-size: 20px;
+}
+.vib{
+    padding: 10px 640px;
+}
+button.icon{
+    color: white;
+    background-color: #66b821;
+    border-radius: 30px;
+    height: 48px;
+    text-align: center;
+    min-width: 228px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+.list{
+    padding: 0px 350px;
+}
+.end{
+    text-align: left;
+    background-color: #574e92;
+    padding-top: 44px;
+    padding-bottom: 30px;
+    box-sizing: inherit;
+    display: flex;
+   
+    
+}
+ .viber{
+    
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300; 
+    color: #fff;
+    padding: 0px 200px;
+    
+
+}
+.company{
+    
+   
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: 300; 
+    color: #fff;
+    
+    
+}
+
+.Download{
+    font-size: 15px;
+    font-weight: 300; 
+    font-family: Roboto, sans-serif;   
+    color:#fff;
+
+    
+        
+} 
+.LIST{
+    list-style: none;
+
+    
+}
+
+
+.search{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #665cac;
+    border-color: white;
+    color: white;
+}
+.final{
+    padding-left: 30px;
+}
+.fb i{
+    font-size: 30px;
+}
+.fb i:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+.twitter i{
+    font-size: 30px;
+}
+.twitter i:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+.insta i{
+    font-size: 30px;
+}
+.insta i:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+.social-media{
+    display: flex;
+    padding-top: 350px;
+    padding-left: 100px;
+}
+.media{
+    padding-top: 370px;
+    padding-right: 30px;
+}

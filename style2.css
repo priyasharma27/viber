@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+h2{
+    text-decoration: underline;
+    color: blue;
+}
+label{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 5px;
+    width: 100px;
+}
+.box1{
+    margin-bottom: 15px;
+
+}
+input,select,textarea{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 10px;
+ }
+ button{
+    background-color: pink;
+    color: black;
+    padding: 10px,20px;
+    font-size: 14px;
+    border-radius:10px;
+    height: 40px;
+    width: 100px;
+    tab-size: 100px;
+    
+ }
+ .box{
+    text-align: right;
+}
+
+ 
+
